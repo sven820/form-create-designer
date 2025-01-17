@@ -75,6 +75,12 @@ addComponent('FcEditor', FcEditor);
 addComponent('TableForm', TableForm, TableFormView);
 addComponent('FcTable', Table, TableView);
 
+// 自定义组件
+import CheckboxNote from './components/CheckboxNote.vue';
+import FormTable from './components/FormTable.vue';//弃用
+designerForm.component('CheckboxNote', CheckboxNote);
+designerForm.component('FormTable', FormTable); //弃用
+
 const install = function (Vue) {
     Vue.component('FcDesigner', FcDesigner);
 };

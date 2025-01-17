@@ -370,6 +370,18 @@ const ZhCn = {
                 fill: '当按钮为活跃状态时的边框和背景颜色'
             }
         },
+        checkboxNote: {
+            name: '多选框备注',
+            props: {
+                input: '是否可以填写',
+                type: '按钮类型',
+                disabled: '是否禁用',
+                min: '可被勾选的最小数量',
+                max: '可被勾选的最大数量',
+                textColor: '当按钮为活跃状态时的字体颜色',
+                fill: '当按钮为活跃状态时的边框和背景颜色'
+            }
+        },
         col: {
             name: '布局格子',
             props: {

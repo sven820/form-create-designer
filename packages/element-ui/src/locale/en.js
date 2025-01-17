@@ -370,6 +370,18 @@ const En = {
                 fill: 'Border and background color when the button is active'
             }
         },
+        checkboxNote: {
+            name: 'CheckboxNote',
+            props: {
+                input: 'Whether to fill in',
+                type: 'Type',
+                disabled: 'Disabled',
+                min: 'Minimum number that can be checked',
+                max: 'The maximum number that can be checked',
+                textColor: 'Font color when the button is active',
+                fill: 'Border and background color when the button is active'
+            }
+        },
         col: {
             name: 'Col',
             props: {

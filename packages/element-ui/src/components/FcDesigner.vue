@@ -690,6 +690,7 @@ export default defineComponent({
                 }
             },
         });
+        data.baseForm.rule[0].options = props.config.fieldList
 
         watch(() => data.preview.state, function (n) {
             if (!n) {

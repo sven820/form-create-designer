@@ -39,7 +39,9 @@ import table from './rule/table';
 import tableForm from './rule/tableForm';
 import tableFormColumn from './rule/tableFormColumn';
 import image from './rule/image';
-
+//自定义组件
+import formTable from './rule/formTable'; //弃用
+import checkboxNote from './rule/checkboxNote';
 
 const ruleList = [
     input, textarea, password, number, radio, checkbox, select, _switch, rate, time, timeRange, slider, date, dateRange, color, cascader, upload, transfer, tree, treeSelect, editor,
@@ -47,6 +49,7 @@ const ruleList = [
     alert, button, text, html, divider, tag, image,
     row, table, tabs, space, card, collapse,
     col, tabPane, collapseItem,
+    checkboxNote
 ];
 
 export default ruleList;

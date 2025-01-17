@@ -148,6 +148,12 @@ export default {
             config: {
                 autoActive: true,
                 fieldReadonly: false,
+                fieldList: [
+                    { label: "桩号", value: "station" },
+                    { label: "记录名称", value: "recordName" },
+                    { label: "备注", value: "notes" },
+                    { label: "附件", value: "attach" },
+                ],
                 showSaveBtn: true,
             },
             handle: [
