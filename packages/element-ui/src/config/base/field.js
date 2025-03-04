@@ -1,11 +1,14 @@
 export default function field({t}) {
     return [
         {
-            type: 'select', //FieldInput
+            type: 'FieldInputSelect', //FieldInput jxf custom
             field: 'field',
             value: '',
             title: t('form.field'),
             options: [],
+            props: {
+                options: [],
+            }
         }, {
             type: 'LanguageInput',
             field: 'title',
